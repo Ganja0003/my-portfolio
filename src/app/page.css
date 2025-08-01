@@ -1,0 +1,49 @@
+.navbarContainer{
+    background-color: #007FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 100px;
+}
+
+.navbarLeft{
+
+}
+
+
+.navbarTitle{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.navbarRight{
+ 
+}
+
+
+.navbarRight > ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.navbarRight > ul > li{
+    font-size: 18px;
+    font-weight: 300;
+    list-style: none;
+}
+
+
+@media (max-width: 786px ) {
+    .navbarContainer{
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+
+
+
+    
+}
