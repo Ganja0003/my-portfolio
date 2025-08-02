@@ -7,10 +7,6 @@
     padding: 0 100px;
 }
 
-.navbarLeft{
-
-}
-
 
 .navbarTitle{
     font-size: 18px;
@@ -18,12 +14,7 @@
 }
 
 
-.navbarRight{
- 
-}
-
-
-.navbarRight > ul{
+.navLinks{
     display: flex;
     justify-content: space-around;
     gap: 50px;
@@ -35,6 +26,10 @@
     list-style: none;
 }
 
+.menuIcon{
+    display: none;
+}
+
 
 @media (max-width: 786px ) {
     .navbarContainer{
@@ -42,8 +37,34 @@
     padding: 0 10px;
 }
 
+.navLinks{
+    display: none;
+}
 
 
+.menuIcon{
+    display: block;
+    font-size: 28px;
+}
 
+
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    gap: 10px;
+    right: 0px;
+    top:56px;
+    width: 100vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    z-index: 9999;
+}
+
+.hide{
+    display:none;
+}
     
 }
