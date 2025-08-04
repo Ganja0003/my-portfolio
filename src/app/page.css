@@ -1,3 +1,10 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* navbar */
 .navbarContainer{
     background-color: #007FFF;
     display: flex;
@@ -5,6 +12,8 @@
     align-items: center;
     height: 56px;
     padding: 0 100px;
+    width: 100%;
+    color: white;
 }
 
 
@@ -61,10 +70,219 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 1rem;
     z-index: 9999;
+    color: black;
 }
 
 .hide{
     display:none;
 }
     
+}
+
+
+/* about section */
+
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    width: 1200px;
+    align-items: stretch; 
+    margin-top: 100px;
+}
+
+.aboutText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.aboutText h1{
+max-width: 486px;
+height: 154px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 110%;
+color: #25282B;
+}
+
+.aboutText h4{
+max-width: 486px;
+height: 27px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-transform: uppercase;
+color: #007FFF;
+}
+
+.aboutText p{
+max-width: 486px;
+height: 216px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #828282;
+}
+
+
+.aboutText > .buttons{
+  
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 12px;
+max-width: 230px;
+height: 43px;
+box-sizing: border-box;
+margin-top: 20px;
+
+}
+
+.Btn{
+  padding: 0.65rem 1.5rem;
+  border-radius: 8px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  display: inline-block;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.linkedInBtn{
+    background-color: #007FFF;
+    color: white;
+    border: 2px solid transparent;
+}
+
+.linkedInBtn:hover {
+  background-color: #0066cc; /* darker blue */
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.githubBtn{
+  color: black;
+  border: 2px solid black;
+}
+
+.githubBtn:hover {
+  background-color: black;
+  color: white;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.aboutImage{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+aspect-ratio: 1 / 1; 
+}
+
+.aboutImage img{
+border-radius: 50%;
+height: 100%;
+width: 100%;
+object-fit: cover;
+object-position: 50% 10%;  
+
+}
+
+
+@media(max-width:1080px){
+  .aboutContainer{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0 1rem;
+  }
+
+  .aboutText{
+    align-items: center;
+    width: 100%;
+  }
+
+ .aboutImage {
+    width: 80%;
+    height: 200px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .aboutImage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .aboutText h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    max-width: 90%;
+    height: auto;
+    text-align: center;
+  }
+
+  .aboutText h4 {
+    font-size: 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  .aboutText p {
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+
+ 
+
+}
+
+@media (max-width:768px) {
+  .aboutImage{
+    width: 100%;
+  }
+
+  .aboutText h4 {
+    font-size: 16px;
+    line-height: 1.4;
+    
+  }
+
+  .aboutText h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    
+    
+  }
+
+  .aboutText p {
+    font-size: 16px;
+    line-height: 1.6;
+    
+  }
+ .aboutText > .buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .Btn{
+  width: 100%;
+  text-align: center;
+  }
 }
