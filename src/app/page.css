@@ -85,8 +85,8 @@
 .aboutContainer{
     display: flex;
     justify-content: center;
-    max-width: 80%;
-    width: 1200px;
+    max-width: 1200px;
+    width: 80%;
     align-items: stretch; 
     margin-top: 100px;
 }
@@ -134,13 +134,11 @@ color: #828282;
 
 
 .aboutText > .buttons{
-  
 display: flex;
 flex-direction: row;
 align-items: flex-start;
 gap: 12px;
 max-width: 230px;
-height: 43px;
 box-sizing: border-box;
 margin-top: 20px;
 
@@ -158,24 +156,25 @@ margin-top: 20px;
   box-sizing: border-box;
 }
 
-.linkedInBtn{
+.blueBtn{
     background-color: #007FFF;
     color: white;
     border: 2px solid transparent;
 }
 
-.linkedInBtn:hover {
-  background-color: #0066cc; /* darker blue */
+.blueBtn:hover {
+  background-color: #0066cc; 
   transform: translateY(-2px);
   cursor: pointer;
 }
 
-.githubBtn{
+.whiteBtn{
   color: black;
   border: 2px solid black;
+  background-color: white;
 }
 
-.githubBtn:hover {
+.whiteBtn:hover {
   background-color: black;
   color: white;
   transform: translateY(-2px);
@@ -281,8 +280,94 @@ object-position: 50% 10%;
     flex-wrap: wrap;
   }
 
+
+
   .Btn{
   width: 100%;
   text-align: center;
   }
+
+
 }
+
+
+
+/*Projects section*/
+
+.projectListContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+
+.projectCard{
+  margin-top: 100px;
+  max-width: 500px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden; /* this is the trick */
+}
+
+.projectImage{
+  width: 100%;
+  
+}
+
+
+.projectText{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin:10px;
+}
+
+.projectText > h4{
+color: #007FFF;
+font-size: 14px;
+}
+
+.projectText > .buttons{
+  
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 12px;
+margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .projectListContainer{
+  margin-top: 10px;
+}
+  
+  .projectCard {
+    width: 60%;
+    max-width: 100%;
+  }
+
+ 
+}
+
+@media (max-width: 550px) {
+  .projectCard {
+    width: 80%;
+    max-width: 100%;
+  }
+
+   .projectText > .buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+ 
+}
+
+
+
