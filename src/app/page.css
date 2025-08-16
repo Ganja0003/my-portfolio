@@ -297,7 +297,7 @@ object-position: 50% 10%;
 .projectListContainer{
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
   max-width: 1200px;
   margin-top: 50px;
@@ -316,7 +316,7 @@ object-position: 50% 10%;
 
 .projectImage{
   width: 100%;
-  
+
 }
 
 
