@@ -23,7 +23,7 @@ export default function About() {
         </div>
 
         <div className="aboutImage">
-          <img src="Yusuuf_resized.jpg" alt="" />
+          <img src="images/Yusuuf_resized.jpg" alt="" />
         </div>
       </div>
     </>

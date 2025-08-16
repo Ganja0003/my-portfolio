@@ -5,7 +5,7 @@ export default function ProjectList() {
     <>
       <div className="projectListContainer">
         <Projects
-          img='/pizza.jpeg'
+          img='images/pizza.jpeg'
           projectTitle="Mealsharing"
           techStack="FULLSTACK"
           projectDescription="In progress. Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
@@ -13,7 +13,7 @@ export default function ProjectList() {
           viewSourceLink="https://github.com/Ganja0003/meal-sharing"
         />
          <Projects
-          img='\Quiz-app-project.png'
+          img='images\Quiz-app-project.png'
           projectTitle="Quiz App"
           techStack="FRONTEND"
           projectDescription="Individual project: Its a small quiz game where a user can answer multiple choice questions, see score, and switch player."
@@ -21,7 +21,7 @@ export default function ProjectList() {
           viewSourceLink="https://github.com/Ganja0003/Quiz-App-Project"
         />
          <Projects
-          img='\tantakuy-project.png'
+          img='images\tantakuy-project.png'
           projectTitle="Tantakuy"
           techStack="FULLSTACK"
           projectDescription="Team project: Final HYF project. Website where a company can create a competion and a participant can join competition and vote."
@@ -29,7 +29,7 @@ export default function ProjectList() {
           viewSourceLink="https://github.com/Lupescua/tantakuy-hyf"
         />
          <Projects
-          img='/weather-app-project.png'
+          img='images/weather-app-project.png'
           projectTitle="Weather App"
           techStack="FRONTEND"
           projectDescription="Individual project: One of my first project, I followed a tutorial. Its an app that shows the current weather of a city, like temperature, wind, humidity."
