@@ -13,17 +13,17 @@ export default function About() {
             exploring tech opportunities.
           </p>
           <div className="buttons">
-            <Link href="https://www.linkedin.com" className="linkedInBtn Btn">
+            <Link href="https://www.linkedin.com" className="blueBtn Btn">
               LinkedIn
             </Link>
-            <Link href="https://github.com/dashboard" className="githubBtn Btn">
+            <Link href="https://github.com/dashboard" className="whiteBtn Btn">
               Github
             </Link>
           </div>
         </div>
 
         <div className="aboutImage">
-          <img src="Yusuuf_resized.jpg" alt="" />
+          <img src="images/Yusuuf_resized.jpg" alt="" />
         </div>
       </div>
     </>
