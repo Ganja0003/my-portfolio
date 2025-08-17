@@ -12,6 +12,7 @@ export default function Home() {
       <Navbar/>
       <About/>
       <ProjectList/>
+      <Contact/>
     </div>
     
     </>
