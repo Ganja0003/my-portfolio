@@ -311,7 +311,7 @@ object-position: 50% 10%;
   flex-direction: column;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  overflow: hidden; /* this is the trick */
+  overflow: hidden;
 }
 
 .projectImage{
@@ -371,3 +371,111 @@ margin-top: 10px;
 
 
 
+
+/*Contact section*/
+
+.contactContainer{
+  margin-top: 200px;
+  display: flex;
+  flex-direction:column;
+  gap: 30px;
+  max-width: 1200px;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contactTitle{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.contactTitle::after{
+  content: '';
+  display: block;
+  width: 50%;                 
+  height: 4px;               
+  background-color: #007FFF; 
+  margin: 0 auto;            
+  margin-top: 6px;
+ border-radius: 2px;
+}
+
+
+
+
+.textInput, .textArea{
+  display:flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 60%;
+  font-size: 20px;
+}
+
+.textInput > input{
+  background-color: white;
+  height: 50px;
+  width: 400px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid black;
+}
+
+
+
+.textArea > textarea{
+  background-color: white;
+  height: 160px;
+  width: 400px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid black;
+}
+
+
+.contactButton{
+  background-color: #007FFF;
+  color: white;
+  width: 60%;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 20px;
+  border: none;
+}
+
+.contactButton:hover {
+  background-color: #0066cc; 
+  cursor: pointer;
+}
+
+
+@media(max-width:786px){
+.contactContainer{
+  margin-top: 100px;
+}
+
+  .textInput, .textArea{
+  width: 80%;
+  }
+
+  .contactButton{
+    width: 80%;
+  }
+
+
+}
+
+@media(max-width:550px){
+  .textInput, .textArea{
+  width: 100%;
+  }
+
+   .contactButton{
+    width: 100%;
+  }
+
+
+}
