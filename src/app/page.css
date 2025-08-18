@@ -416,7 +416,6 @@ margin-top: 10px;
 .textInput > input{
   background-color: white;
   height: 50px;
-  width: 400px;
   border-radius: 8px;
   width: 100%;
   font-size: 16px;
@@ -428,7 +427,6 @@ margin-top: 10px;
 .textArea > textarea{
   background-color: white;
   height: 160px;
-  width: 400px;
   border-radius: 8px;
   width: 100%;
   font-size: 16px;
@@ -478,4 +476,33 @@ margin-top: 10px;
   }
 
 
+}
+
+
+/*Footer section*/
+
+
+.footerContainer{
+  margin-top: 100px;
+  height: 52px;
+  width: 100%;
+  background-color: #007FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+}
+.backToTop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .footerContainer{
+    justify-content: space-evenly;
+  }
+  .backToTop {
+    display: block; 
+  }
 }
