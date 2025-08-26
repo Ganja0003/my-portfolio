@@ -426,11 +426,12 @@ margin-top: 10px;
 
 .textArea > textarea{
   background-color: white;
-  height: 160px;
+  height: 200px;
   border-radius: 8px;
   width: 100%;
   font-size: 16px;
   border: 2px solid black;
+  resize: none;
 }
 
 
