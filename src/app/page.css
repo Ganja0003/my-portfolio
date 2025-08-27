@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 56px;
+    height: 60px;
     padding: 0 100px;
     width: 100%;
     color: white;
@@ -63,10 +63,11 @@
     justify-content: center;
     align-items: center;
     position:absolute;
-    gap: 10px;
+    gap: 35px;
     right: 0px;
-    top:56px;
+    top:60px;
     width: 100vw;
+    background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 1rem;
     z-index: 9999;
