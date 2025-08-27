@@ -27,7 +27,7 @@ export default function Contact() {
   };
   return (
     <>
-      <form onSubmit={submitHandler} className="contactContainer">
+      <form onSubmit={submitHandler} className="contactContainer" id='contact'>
         <h2 className="contactTitle">Contact Me</h2>
         <div className="textInput">
           <label htmlFor="name">Name</label>
