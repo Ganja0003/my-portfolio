@@ -3,7 +3,7 @@ import Projects from "./projectCard";
 export default function ProjectList() {
   return (
     <>
-      <div className="projectListContainer">
+      <div className="projectListContainer" id='projects'>
         <Projects
           img='images/pizza.jpeg'
           projectTitle="Mealsharing"

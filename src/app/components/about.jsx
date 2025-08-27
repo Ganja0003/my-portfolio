@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-      <div className="aboutContainer">
+      <div className="aboutContainer" id='about'>
         <div className="aboutText">
           <h4>WEBDEVELOPER</h4>
           <h1>Hello, my name is Yuusuf Roble</h1>
