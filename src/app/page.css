@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    padding: 0 100px;
+    padding: 40px 100px;
     width: 100%;
     color: white;
 }
@@ -494,6 +494,7 @@ margin-top: 10px;
   align-items: center;
   font-size: 16px;
   color: white;
+  padding: 40px 0px;
 }
 .backToTop {
   display: none;
