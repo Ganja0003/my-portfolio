@@ -12,6 +12,14 @@ export default function ProjectList() {
           viewProjectLink="https://github.com/Ganja0003/meal-sharing"
           viewSourceLink="https://github.com/Ganja0003/meal-sharing"
         />
+        <Projects
+          img='images\tantakuy-project.png'
+          projectTitle="Tantakuy"
+          techStack="FULLSTACK"
+          projectDescription="Team project: Final HYF project. Website where a company can create a competion and a participant can join competition and vote."
+          viewProjectLink="https://tantakuy-hyf.vercel.app/"
+          viewSourceLink="https://github.com/Lupescua/tantakuy-hyf"
+        />
          <Projects
           img='images\Quiz-app-project.png'
           projectTitle="Quiz App"
@@ -20,14 +28,7 @@ export default function ProjectList() {
           viewProjectLink="https://quiz-app-project-2ui6.onrender.com/"
           viewSourceLink="https://github.com/Ganja0003/Quiz-App-Project"
         />
-         <Projects
-          img='images\tantakuy-project.png'
-          projectTitle="Tantakuy"
-          techStack="FULLSTACK"
-          projectDescription="Team project: Final HYF project. Website where a company can create a competion and a participant can join competition and vote."
-          viewProjectLink="https://tantakuy-hyf.vercel.app/"
-          viewSourceLink="https://github.com/Lupescua/tantakuy-hyf"
-        />
+         
          
       </div>
     </>
