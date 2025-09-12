@@ -28,14 +28,7 @@ export default function ProjectList() {
           viewProjectLink="https://tantakuy-hyf.vercel.app/"
           viewSourceLink="https://github.com/Lupescua/tantakuy-hyf"
         />
-         <Projects
-          img='images/weather-app-project.png'
-          projectTitle="Weather App"
-          techStack="FRONTEND"
-          projectDescription="Individual project: One of my first project, I followed a tutorial. Its an app that shows the current weather of a city, like temperature, wind, humidity."
-          viewProjectLink="https://weather-app-6pug.onrender.com/"
-          viewSourceLink="https://github.com/Ganja0003/weather-app"
-        />
+         
       </div>
     </>
   );
