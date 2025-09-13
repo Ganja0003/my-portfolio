@@ -294,6 +294,22 @@ object-position: 50% 10%;
 
 
 /*Projects section*/
+.projectTitle{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 150px;
+}
+
+.projectTitle::after{
+  content: '';
+  display: block;
+  width: 60%;                 
+  height: 4px;               
+  background-color: #007FFF; 
+  margin: 0 auto;            
+  margin-top: 6px;
+ border-radius: 2px;
+}
 
 .projectListContainer{
   display: flex;
@@ -301,11 +317,10 @@ object-position: 50% 10%;
   gap: 30px;
   justify-content: center;
   max-width: 90%;
-  margin-top: 50px;
 }
 
 .projectCard{
-  margin-top: 100px;
+  margin-top: 50px;
   max-width: 500px;
   width: 40%;
   display: flex;

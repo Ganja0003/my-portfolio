@@ -3,6 +3,7 @@ import Projects from "./projectCard";
 export default function ProjectList() {
   return (
     <>
+      <h2 className="projectTitle">Projects</h2>
       <div className="projectListContainer" id='projects'>
         <Projects
           img='images/pizza.jpeg'
