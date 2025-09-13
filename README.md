@@ -9,3 +9,5 @@ It includes the following sections:
 ---
 
 ## 📷 Preview
+
+![Portfolio Preview](/public/images/portfolioImage.png)
