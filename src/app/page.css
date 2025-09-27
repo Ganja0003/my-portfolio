@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
 }
 
 /* navbar */
@@ -298,6 +299,7 @@ object-position: 50% 10%;
   font-size: 40px;
   font-weight: bold;
   margin-top: 150px;
+  color: black;
 }
 
 .projectTitle::after{
@@ -328,6 +330,7 @@ object-position: 50% 10%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
+  color: black;
 }
 
 .projectImage{
@@ -406,6 +409,7 @@ white-space: nowrap;
 .contactTitle{
   font-size: 40px;
   font-weight: bold;
+  color: black;
 }
 
 .contactTitle::after{
@@ -428,6 +432,7 @@ white-space: nowrap;
   gap: 5px;
   width: 60%;
   font-size: 20px;
+  color: black;
 }
 
 .textInput > input{
