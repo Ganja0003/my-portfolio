@@ -442,6 +442,7 @@ white-space: nowrap;
   width: 100%;
   font-size: 16px;
   border: 2px solid black;
+  color:black;
 }
 
 
@@ -454,6 +455,7 @@ white-space: nowrap;
   font-size: 16px;
   border: 2px solid black;
   resize: none;
+  color:black;
 }
 
 
