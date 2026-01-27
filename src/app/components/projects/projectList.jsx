@@ -9,8 +9,8 @@ export default function ProjectList() {
           img='images/pizza.jpeg'
           projectTitle="Mealsharing"
           techStack="FULLSTACK"
-          projectDescription="In progress. Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-          viewProjectLink="https://github.com/Ganja0003/meal-sharing"
+          projectDescription="Individual project: A meal-sharing app where users can see meals, reserve seats and leave reviews. "
+          viewProjectLink="https://meal-sharing-amber.vercel.app/"
           viewSourceLink="https://github.com/Ganja0003/meal-sharing"
         />
          <Projects
