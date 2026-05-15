@@ -14,12 +14,12 @@ export default function ProjectList() {
           viewSourceLink="https://github.com/Ganja0003/meal-sharing"
         />
          <Projects
-          img='images\Quiz-app-project.png'
-          projectTitle="Quiz App"
-          techStack="FRONTEND"
-          projectDescription="Individual project: Its a small quiz game where a user can answer multiple choice questions, see score, and switch player."
-          viewProjectLink="https://quiz-app-project-2ui6.onrender.com/"
-          viewSourceLink="https://github.com/Ganja0003/Quiz-App-Project"
+          img='images\blog.png'
+          projectTitle="Blog"
+          techStack="FULLSTACK"
+          projectDescription="Individual project: Blog application where users can create and delete their posts with a responsive and userfriendly design."
+          viewProjectLink="https://blog-rho-three-24.vercel.app/"
+          viewSourceLink="https://github.com/Ganja0003/blog"
         />
          <Projects
           img='images\tantakuy-project.png'
